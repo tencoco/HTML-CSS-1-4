@@ -269,6 +269,7 @@ footer{
   .instagram-box{
     width: 45%;
     margin: 3% auto;
+    padding-top: 45%;
   }
 
   .instagram-box:nth-child(odd) {
