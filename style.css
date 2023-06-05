@@ -142,7 +142,7 @@ main{
   line-height: 30px;
 }
 
-.sideber{
+.sidebar{
   width: 230px;
 }
 
@@ -234,8 +234,45 @@ footer{
   color: #fff;
 }
 
+@media screen and (max-width: 425px){
+  header, social, [class^="nav"], main, .main-visual-content, .blog, .sidebar{
+    width: 100%;
+    flex-direction: column;
+  }
 
+  .social{
+    display: none;
+  }
 
+  .nav-list-item{
+    margin: 0;
+  }
+  
+  .blog{
+    padding: 3%;
+  }
 
+  .blog-image, .blog-text{
+    width: 50%;
+    display: inline-block;
+  }
 
+  .sidebar{
+    padding: 70px 0;
+  }
 
+  .sidebar-contents {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .instagram-box{
+    width: 45%;
+    margin: 3% auto;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin: 3% auto;
+  }
+
+}
