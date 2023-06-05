@@ -11,4 +11,4 @@ html/cssファイルのため、PCのブラウザで実行できます。
 caravantestは4章演習問題です。
 infratopは５勝の演習問題(未完成)です。
 caravan1-6は6章の演習問題です。
-caravan1-7は7章の演習問題です。
+caravan1-7は7章の演習問題(未完成)です。
